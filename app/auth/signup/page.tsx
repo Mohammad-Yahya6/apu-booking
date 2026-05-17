@@ -41,7 +41,7 @@ export default function SignupPage() {
         @keyframes fadeUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
 
         .nav { position: sticky; top: 0; z-index: 50; display: flex; align-items: center; justify-content: space-between; padding: 0 40px; height: 54px; background: rgba(8,8,8,0.92); backdrop-filter: blur(14px); border-bottom: 0.5px solid var(--border); }
-        .logo { font-family: var(--font-head); font-size: 20px; font-weight: 700; letter-spacing: -0.01em; }
+        .logo { font-family: var(--font-head); font-size: 22px; font-weight: 700; letter-spacing: -0.01em; }
         .logo span { color: var(--blue); }
 
         .wrap { min-height: calc(100vh - 54px); display: flex; align-items: center; justify-content: center; padding: 40px 24px; }

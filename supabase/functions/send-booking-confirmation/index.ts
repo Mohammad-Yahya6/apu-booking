@@ -104,7 +104,7 @@ function emailTemplate(booking: {
                 </tr>
               </table>
 
-              <p style="margin:0;font-size:12px;color:#333;line-height:1.6;text-align:center;">If you need to cancel or edit this booking, visit the <a href="https://your-app-url.vercel.app/bookings" style="color:#3b82f6;text-decoration:none;">APU Bookings</a> portal.</p>
+              <p style="margin:0;font-size:12px;color:#333;line-height:1.6;text-align:center;">If you need to cancel or edit this booking, visit the <a href="https://apu-booking.vercel.app/bookings" style="color:#3b82f6;text-decoration:none;">APU Bookings</a> portal.</p>
             </td>
           </tr>
 

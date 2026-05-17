@@ -102,10 +102,23 @@ const WEEK_HOURS = 50;
 
 function getWeekRange() {
   const now = new Date();
+  const day = now.getDay();
+  
   const monday = new Date(now);
-  monday.setDate(now.getDate() - ((now.getDay() + 6) % 7));
+  if (day === 0) {
+    // Sunday — go to tomorrow (Monday)
+    monday.setDate(now.getDate() + 1);
+  } else if (day === 6) {
+    // Saturday — go to day after tomorrow (Monday)
+    monday.setDate(now.getDate() + 2);
+  } else {
+    // Weekday — go to this week's Monday
+    monday.setDate(now.getDate() - (day - 1));
+  }
+
   const friday = new Date(monday);
   friday.setDate(monday.getDate() + 4);
+
   return {
     from: monday.toISOString().split("T")[0],
     to:   friday.toISOString().split("T")[0],

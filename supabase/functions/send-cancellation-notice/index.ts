@@ -65,7 +65,7 @@ function emailTemplate(data: {
                 </tr>
               </table>
 
-              <p style="margin:0;font-size:12px;color:#333;line-height:1.6;text-align:center;">To make a new booking, visit the <a href="https://your-app-url.vercel.app" style="color:#3b82f6;text-decoration:none;">APU Bookings</a> portal.</p>
+              <p style="margin:0;font-size:12px;color:#333;line-height:1.6;text-align:center;">To make a new booking, visit the <a href="https://apu-booking.vercel.app" style="color:#3b82f6;text-decoration:none;">APU Bookings</a> portal.</p>
             </td>
           </tr>
 

@@ -30,13 +30,13 @@ function CampusMap({ onSelect }: { onSelect: (key: BuildingKey) => void }) {
       </defs>
       <rect width="580" height="340" fill="url(#g)" />
 
-      <rect x="90" y="158" width="360" height="12" rx="2" fill="#0b0b0b" />
+      <rect x="90" y="158" width="360" height="12" rx="2" fill="#202020" />
       <line x1="90" y1="164" x2="450" y2="164" stroke="#161616" strokeWidth="1" strokeDasharray="10 7" />
-      <rect x="174" y="100" width="10" height="68" rx="2" fill="#0b0b0b" />
-      <rect x="334" y="100" width="10" height="68" rx="2" fill="#0b0b0b" />
-      <rect x="174" y="160" width="10" height="68" rx="2" fill="#0b0b0b" />
-      <rect x="334" y="160" width="10" height="68" rx="2" fill="#0b0b0b" />
-      <rect x="440" y="158" width="52" height="12" rx="2" fill="#0b0b0b" />
+      <rect x="174" y="100" width="10" height="68" rx="2" fill="#202020" />
+      <rect x="334" y="100" width="10" height="68" rx="2" fill="#202020" />
+      <rect x="174" y="160" width="10" height="68" rx="2" fill="#202020" />
+      <rect x="334" y="160" width="10" height="68" rx="2" fill="#202020" />
+      <rect x="440" y="158" width="52" height="12" rx="2" fill="#202020" />
 
       <rect x="12" y="144" width="78" height="44" rx="3" fill="#1c1c1c" stroke="#474646" strokeWidth="0.5" />
       {[0,1,2,3].map(i => (

@@ -166,7 +166,8 @@ export default function BookingsPage() {
       const { data: userRows } = await supabase
         .from("bookings").select("id")
         .eq("room_id", b.room_id).eq("date", b.date)
-        .eq("user_id", user.id).eq("status", "confirmed");
+        .eq("user_id", user.id).eq("status", "confirmed")
+        .neq("id", b.id); // exclude the booking being edited
       setEditUserSlots(userRows?.length ?? 0);
     })();
   }
